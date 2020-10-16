@@ -1,0 +1,11 @@
+[Unit]
+Description=Push Gateway
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=prometheus
+ExecStart=/var/lib/prometheus/push_gateway/pushgateway
+
+[Install]
+WantedBy=default.target
