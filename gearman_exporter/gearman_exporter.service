@@ -1,0 +1,11 @@
+[Unit]
+Description=Gearman Prometheus Exporter
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=prometheus
+ExecStart=/var/lib/prometheus/gearman_exporter/gearman-exporter.linux.amd64 --addr :9418
+
+[Install]
+WantedBy=default.target
