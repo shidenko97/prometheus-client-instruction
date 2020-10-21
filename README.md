@@ -10,5 +10,6 @@
 * [NGINX Prometheus Exporter](https://github.com/shidenko97/prometheus-client-instruction/blob/master/nginx_prometheus_exporter/README.md) - сервис для мониторинга Nginx
 * [Gearman Exporter](https://github.com/shidenko97/prometheus-client-instruction/blob/master/gearman_exporter/README.md) - сервис для мониторинга Gearman
 * [Push Gateway](https://github.com/shidenko97/prometheus-client-instruction/blob/master/push_gateway/README.md) - шлюз для получения данных по API и транслирования их в Prometheus
+* [PHP-FPM Exporter](https://github.com/shidenko97/prometheus-client-instruction/blob/master/php_fpm_exporter/README.md) - сервис для мониторинга PHP-FPM статистики
 
 
